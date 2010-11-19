@@ -36,6 +36,9 @@ Just insert the tag [sk_post_count] into your post, and we will take care of the
 
 == Changelog ==
 
+= 1.1 =
+* added support for showing post count in a blog post or page.
+
 = 1.0 =
 * Initial Creation and Implementation
 
