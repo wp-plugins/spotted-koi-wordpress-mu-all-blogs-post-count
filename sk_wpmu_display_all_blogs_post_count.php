@@ -43,4 +43,12 @@ function sk_display_blog_count() {
    //return the total count of all posts
    echo "There are ".$total." total posts across all ".count($res)." of your blogs";
 }
+
+add_action('the_content', 'sk_display_blog_count_content');
+//http://codex.wordpress.org/Shortcode_API
+function sk_display_blog_count_content($val) {
+   if (strpos($val, '[sk_post_count]') !== false) {
+      return str_replace('[sk_post_count]', sk_display_blog_count(), $val);
+   }
+}
 ?>

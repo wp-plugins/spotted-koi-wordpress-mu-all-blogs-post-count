@@ -10,7 +10,10 @@ Outputs the total number of posts across all WordPress Mu blogs.
 
 == Description ==
 
-Outputs the total number of posts across all WordPress Mu blogs.
+Outputs the total number of posts across all WordPress Mu blogs in a dashboard widget.
+
+It will now also allow you to put the number of posts live on your site, all you have to do is insert the tag [sk_post_count] into the content of your post!
+
 
 A few notes about the sections above:
 
@@ -22,7 +25,10 @@ A few notes about the sections above:
 
 == Frequently Asked Questions ==
 
-None at this time. [Ask away here](http://spottedkoi.com/plugins/sk-wpmu-all-blogs-post-count-plugin/ "Spotted Koi WPMU All Blogs Post Count Plugin")
+You can always ask here: (http://spottedkoi.com/plugins/sk-wpmu-all-blogs-post-count-plugin/ "Spotted Koi WPMU All Blogs Post Count Plugin")
+
+How Do I display the post count in my blog posts?
+Just insert the tag [sk_post_count] into your post, and we will take care of the rest!
 
 == Screenshots ==
 
